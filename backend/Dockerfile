@@ -38,6 +38,7 @@ ARG SUPER_ADMIN_PASSWORD=${SUPER_ADMIN_PASSWORD}
 ARG GOOGLE_DM_API_KEY=${GOOGLE_DM_API_KEY}
 ARG DISTANCIA_RESTAURANTE_MAX=${DISTANCIA_RESTAURANTE_MAX}
 
+# Todo revisar ejecucion
 # Ejecucion
 RUN groupadd --system --gid 1000 gandalf
 RUN useradd --system --gid gandalf --uid 1000 --shell /bin/bash --create-home gandalf
