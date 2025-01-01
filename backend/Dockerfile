@@ -1,4 +1,5 @@
 # Etapa 1 - Crear un contenedor para el build, y empaquetar el backend
+# Todo Actualizar imagen Maven
 FROM maven:3.6.3-jdk-11-slim as builder
 # Ejecucion
 RUN groupadd --system --gid 1000 legolas
