@@ -12,7 +12,7 @@ COPY pom.xml /home/legolas/app
 RUN mvn -f /home/legolas/app clean package -DskipTests
 
 # Etapa 2 - Crear contenedor con Tomcat para producción
-# Todo actualizar imagen Java
+# Todo actualizar imagen Java 02/01/2025
 FROM openjdk:11.0.4-jre-slim as prod
 # Variables
 ARG PORT=${PORT}
